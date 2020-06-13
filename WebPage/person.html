@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+  <title>Karen Lee</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: helvetica;
+    }
+    #box{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #personal{
+      /*justify-content: center*/
+      width: 50%;
+      height: 50%;
+      color: white;
+      font-size: 25px;
+      background: url("http://10wallpaper.com/wallpaper/2560x1600/1205/Sailing_Boat-Natural_landscape_HD_wallpaper_2560x1600.jpg");
+      background-size: cover;
+    }
+    #info{
+      margin: 40px;
+      width: 45%;
+      border:1px solid #BFBFBF;
+      box-shadow: 0px 0px 10px 5px #aaa;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+    }
+    .column{
+      margin-left: 30px;
+      text-align: left;
+      width: 50%;
+      font-size: 15px;
+      flex-basis: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    img{
+      margin-top: 100px;
+      border-radius: 100%;
+      width: 15%;
+    }
+    .son{
+      width: 50%;
+      padding: 25px;
+    }
+    th,td{
+      padding: 0px 55px 15px 0px;
+    }
+  </style>
+</head>
+<body>
+  <div id="box">
+    <div id="personal">
+      <img src="karen.jpg">
+      <h1>Karen Lee</h1>
+      <p>Hi! I'm Karen, a Backend developer. Nice to see you!</p>
+    </div>
+    <div id="info">
+      <div class="column">
+        <div class="son">
+          <h2>教育信息&nbsp;&nbsp;&nbsp;&nbsp;<a style="font-size:15px;">软件工程 学士 GPA：3.5</a></h2>
+          <p>主修及自修课程：C/C++、高等数学、计算机网络、概率论与数理统计、数据库、离散数学、Web 编程， Linux，数据结构与算法，软件测试，需求分析与 UML 建模、操作系统，编译原理，Java 企业级开发框架，云管理与大数据分析等。</p>
+        </div>
+        <div class="son">
+          <h2>实践经历</h2>
+          <p>校学生社团联合会：秘书处部长。负责会议记录，外校嘉宾邀请，与各社团负责人联系沟通。</p>
+          <p>信息技术学院：软件党支部副书记。负责统筹计划支部各项活动及毕业生党员的党关系转接工作。</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="son">
+          <h2>获奖信息</h2>
+          <p>专业优秀奖学金</p>
+          <p>专业二等奖学金</p>
+          <p>校级社会工作奖学金</p>
+          <p>院级优秀毕业设计</p>
+        </div>
+        <div class="son">
+          <h2>个人信息</h2>
+          <table>
+            <tr>
+              <th>性别</th>
+              <td>女</td>
+            </tr>
+            <tr>
+              <th>年龄</th>
+              <td>21岁</td>
+            </tr>
+            <tr>
+              <th>住址</th>
+              <td>广州</td>
+            </tr>
+            <tr>
+              <th>政治面貌</th>
+              <td>中共党员</td>
+            </tr>
+            <tr>
+              <th>邮箱</th>
+              <td>545759585@qq.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</body>
